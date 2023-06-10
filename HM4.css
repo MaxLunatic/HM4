@@ -1,3 +1,93 @@
+.wraper {
+  width: 1440px;
+  position: relative;
+}
+body {
+  font-family: "Tomorrow", sans-serif;
+}
 nav {
-    display: inline-block;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  height: 50px;
+}
+.panel-photo {
+  width: 25%;
+  float: left;
+  max-width: 100%;
+}
+ul {
+  width: 75%;
+  position: relative;
+  display: inline-table;
+  text-align: right;
+  padding-top: 5px;
+  margin-right: 0;
+}
+li {
+  display: inline-block;
+  padding: 0 20px 0;
+  height: 20px;
+}
+.search {
+  background: none;
+
+  width: 24px;
+  height: 24px;
+  border: none;
+  margin-top: 0px;
+  position: absolute;
+}
+.cart {
+  background: none;
+  width: 24px;
+  height: 24px;
+  border: none;
+  margin-top: 0px;
+  position: absolute;
+}
+li a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 130%;
+}
+.sneakers-hero {
+  background-image: url(images/2.jpg);
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sneakers-hero {
+  text-align: center;
+  height: 610px;
+}
+h2 {
+  position: absolute;
+  width: 1241px;
+  height: 297px;
+  left: 100px;
+  top: 148px;
+
+  font-family: "Tomorrow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 140%;
+  /* or 78px */
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: black;
+}
+.sneakers-image {
+  position: absolute;
+  width: 533px;
+  height: 355px;
+  left: 454px;
+  top: 365px;
+  background: url(images/2.jpg);
 }
