@@ -57,12 +57,12 @@ h2 {
   margin-bottom: 200px;
 }
 .one {
-  float: left;
   width: 815px;
   height: 288px;
   margin-left: 100px;
 }
-h1 {
+.one-image {
+  float: left;
 }
 .sneakers-two {
   background-image: url(images/5.png);
@@ -88,8 +88,10 @@ h3 {
   color: azure;
 }
 .sneakers-last {
-  float: left;
   width: 815px;
   height: 288px;
   margin-left: 100px;
+}
+.sneakers-last-image {
+  float: left;
 }
