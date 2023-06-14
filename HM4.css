@@ -70,14 +70,6 @@ h2 {
   height: 800px;
   text-align: center;
 }
-.sneakers-two-image {
-  background-image: url(images/5.png);
-  position: absolute;
-  width: 1440px;
-  height: 862px;
-  left: 0px;
-  top: 1330px;
-}
 h3 {
   position: absolute;
   width: 930px;
@@ -88,6 +80,7 @@ h3 {
   color: azure;
 }
 .sneakers-last {
+  float: left;
   width: 815px;
   height: 288px;
   margin-left: 100px;
